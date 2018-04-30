@@ -25,7 +25,7 @@ class Owner
     end
 
     def species
-      puts @name
+      puts name
     end
 
 end
