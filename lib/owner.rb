@@ -1,6 +1,7 @@
 class Owner
+  @@all
 
-  def all
-    @all
+  def self.all
+    @@all
   end
 end
