@@ -9,6 +9,7 @@ class Owner
     @name = name
     @@all << self
     @@counter =+ 1
+    @pets = {}
     # binding.pry
   end
 
