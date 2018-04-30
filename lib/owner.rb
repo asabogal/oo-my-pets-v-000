@@ -8,5 +8,6 @@ class Owner
 
   def self.all
     @@all << self.new
+    binding.pry
   end
 end
