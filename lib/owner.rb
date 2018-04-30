@@ -25,7 +25,7 @@ class Owner
     end
 
     def species
-      puts self.name
+      self.name
     end
 
 end
