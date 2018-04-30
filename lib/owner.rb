@@ -25,6 +25,7 @@ class Owner
     end
 
     def species
+      @name
     end
 
 end
