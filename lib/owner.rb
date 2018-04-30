@@ -9,7 +9,7 @@ class Owner
     @name = name
     @@all << self
     @@counter =+ 1
-    binding.pry
+    # binding.pry
   end
 
   def self.all
