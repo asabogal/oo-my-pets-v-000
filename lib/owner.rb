@@ -29,8 +29,8 @@ class Owner
     end
 
     def say_species
-      puts "I am a #{self.name}."
-      binding.pry
+      p "I am a #{self.name}."
+      
     end
 
 end
