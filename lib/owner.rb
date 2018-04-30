@@ -22,4 +22,7 @@ class Owner
       @@counter = 0
     end
 
+    def species
+    end
+
 end
