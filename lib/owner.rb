@@ -11,6 +11,10 @@ class Owner
 
   def self.all
     @@all
+  end
+
+    def self.reset_all
+    end
     # binding.pry
   end
 end
