@@ -9,7 +9,7 @@ class Owner
     @name = name
     @@all << self
     @@counter =+ 1
-    @pets = {}
+    @pets = {fishes: [], cats: [], dogs: []}
     # binding.pry
   end
 
