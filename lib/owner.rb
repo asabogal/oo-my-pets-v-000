@@ -9,6 +9,6 @@ class Owner
 
   def self.all
     @@all << self.new
-    binding.pry
+    # binding.pry
   end
 end
