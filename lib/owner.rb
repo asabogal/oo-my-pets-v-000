@@ -2,6 +2,7 @@ require 'pry'
 class Owner
   @@all = []
   @@counter = 0
+
   attr_accessor :name
   def initialize(name)
     @name = name
