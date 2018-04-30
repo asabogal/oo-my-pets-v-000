@@ -17,4 +17,8 @@ class Owner
       @@counter
     end
 
+    def reset_all
+      @@counter = 0
+    end
+
 end
