@@ -33,7 +33,7 @@ class Owner
       p "I am a #{self.name}."
     end
 
-    def pets(pets)
+    def pets
       @pets
     end
 
