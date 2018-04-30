@@ -14,7 +14,7 @@ class Owner
   end
 
     def self.reset_all
+      @@counter
     end
-    # binding.pry
-  end
+
 end
