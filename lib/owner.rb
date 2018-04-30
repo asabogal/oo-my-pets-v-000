@@ -8,7 +8,7 @@ class Owner
   end
 
   def self.all
-    @@all << self.new
+    @@all
     # binding.pry
   end
 end
