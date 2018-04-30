@@ -30,7 +30,6 @@ class Owner
 
     def say_species
       p "I am a #{self.name}."
-      
     end
 
 end
