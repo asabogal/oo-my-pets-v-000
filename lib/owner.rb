@@ -66,14 +66,7 @@ class Owner
       valuess.each {|pet| pet.moood = "nerveous"}
       end
     end
-    # .each {|pet| pet.mood = "nervous"}
-    # {|value| value.mood = "nervous"}
-    # @pets
-    # binding.pry
 
-    @pets
-    #
-    binding.pry
   end
 
 end
