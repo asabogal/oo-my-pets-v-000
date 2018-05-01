@@ -69,7 +69,7 @@ class Owner
 
 
 
-    # binding.pry
+    binding.pry
   end
 
 end
