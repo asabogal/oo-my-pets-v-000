@@ -3,7 +3,7 @@ class Owner
   @@all = []
   @@counter = 0
 
-  attr_accessor :name
+  attr_accessor :name, :pets
   attr_reader :species
   def initialize(name)
     @name = name
@@ -51,7 +51,7 @@ class Owner
   end
 
   def walk_dogs
-    
+
   end
 
 end
