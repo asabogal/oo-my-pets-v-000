@@ -29,7 +29,7 @@ class Owner
     end
 
     def say_species
-      p "I am a #{self.name}."
+      "I am a #{self.name}."
     end
 
     def pets
