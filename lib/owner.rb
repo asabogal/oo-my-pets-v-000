@@ -65,6 +65,8 @@ class Owner
     @pets.values.each do |valuess|
       valuess.each {|pet| pet.mood = "nerveous"}
       end
+      @pets.clear
+      
   end
 
 end
