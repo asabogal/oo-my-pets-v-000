@@ -62,7 +62,9 @@ class Owner
   end
 
   def sell_pets
+
     @pets.each {|key, value| value = []}
+    binding.pry
 
     # @pets.values.each {|pet| pet.mood = "nervous"}
     # binding.pry
